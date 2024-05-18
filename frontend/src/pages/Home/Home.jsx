@@ -14,7 +14,7 @@ const Home = () => {
   const navigate = useNavigate();
   const startRegister = (e)=>{
     e.preventDefault()
-    navigate('/register')
+    navigate('/authenticate')
   }
   return (
     <div>
@@ -29,7 +29,7 @@ const Home = () => {
       </div>
       <div className={styles.signinWrpper}>
         <span className={styles.hasInvite}>Have a invite text</span>
-        <Link style={signInLinkStyle} to='/login'>Sign in</Link>
+        {/* <Link style={signInLinkStyle} to='/login'>Sign in</Link> */}
       </div>
       </Card>
     </div>

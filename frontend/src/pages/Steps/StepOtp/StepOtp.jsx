@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
+import TextInput from '../../../components/shared/TextInput/TextInput'
 
-const StepOtp = () => {
+const StepOtp = ({setOtp}) => {
+  
+
   return (
-    <div>StepOtp</div>
+    <TextInput type='text' placeholder='otp' onChange={(e)=>{setOtp(e.target.value)}} ></TextInput>
   )
 }
 

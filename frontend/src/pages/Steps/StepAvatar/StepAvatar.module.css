@@ -1,0 +1,28 @@
+.subHeading{
+    display: block;
+    color: #c4c5c5;
+    margin-top:-20px;
+}
+.avatar{
+    border-radius: 50%;
+    border: 5px solid #0077FF;
+    width: 110px;
+    height:110px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 10px auto ;
+}
+.avatar img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+.avatarInput{
+    color:#0077FF;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

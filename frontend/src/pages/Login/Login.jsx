@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from './Login.module.css'
 import StepOtp from '../Steps/StepOtp/StepOtp'
 import StepPhoneEmail from '../Steps/StepPhoneEmail/StepPhoneEmail'

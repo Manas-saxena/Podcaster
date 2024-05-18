@@ -1,0 +1,20 @@
+.phoneInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    padding:10px 20px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom:30px ;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.phoneInput input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
