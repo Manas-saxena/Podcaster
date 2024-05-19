@@ -11,7 +11,7 @@ class ActivateController{
         const imagePath = `${Date.now()}-${
             Math.round(Math.random()*1e9
         )}.png`
-        const buffer = Buffer.from(avatar.replace(/^data:image\/png;base64/,''),'base64');
+        const buffer = Buffer.from(avatar.replace(/^data:image\/(png|jpg|jpeg);base64/,''),'base64');
         try {
             const jimpres = await jimp.read(buffer);
             jimpres.resize(150,jimp.AUTO).write(path.resolve(__dirname,`../storage/${imagePath}`));

@@ -36,7 +36,7 @@ const StepAvatar = () => {
     <Card title={`Okay, ${name}!`} icon='./images/monkey.png'>
       <span className={styles.subHeading}>How’s this photo?</span>
       <div className={styles.avatar}>
-        <img src={profile?profile:"./images/defaultavatar.png"} alt="profile" />
+        <img src={profile} alt="profile" />
       </div>
       <label className={styles.avatarInput} htmlFor='setavatar'>Choose a different photo</label>
       <input type="file" accept="image/png, image/jpeg" hidden id='setavatar' onChange={captureImage} />
